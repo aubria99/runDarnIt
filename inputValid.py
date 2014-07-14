@@ -16,4 +16,4 @@ def validChar(userInput):
 def validLength(userInput, playWord):
     if len(userInput) == 1 or len(userInput) == len(playWord):
         return True
-    return F
+    return False
